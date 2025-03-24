@@ -1,5 +1,5 @@
 How to run the executive file?
-1. If you have VSCode
+1. If you have VSCode and would like to run the code in it.
 
 I'd recommend you to configure in the way below.
 
@@ -24,11 +24,14 @@ Step4:  Configure the launch.json
 Step5:  Configure the c_cpp_properties.json
         Just add "...(The path of the HeaderFiles)\\**" in the "includePath" under the original path(don't delete it).
 
-However, you can just copy the code and organize it in the way you like.
+2. If you'd like to run the code in command line.
 
-2. If you don't have VSCode
+You'd better know how to use cmake to deal with the .c files in different folders.
+
+3. You don't like both the way above.
 
 Just copy the code and organize it in the way you like.
+
 
 
 
